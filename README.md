@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="MediGate_logo.png" alt="MediGate Logo" width="200"/>
+  
 
   # 🏥 MediGate Frontend
 
