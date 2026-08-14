@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Activity, Key as KeyIcon, ExternalLink } from 'lucide-react';
-import medigateLogo from '../../imports/MediGate.png';
 
 export function ProviderView() {
   const [smartKey, setSmartKey] = useState('');
@@ -17,7 +16,6 @@ export function ProviderView() {
       {/* Header */}
       <header className="bg-white border-b border-[var(--outline-variant)] px-4 py-3 flex items-center justify-between sticky top-0 z-10">
         <div className="flex items-center gap-3">
-          <img src={medigateLogo} alt="MediGate" className="h-8 w-auto" />
         </div>
         <div className="bg-[var(--danger)] text-white px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wide">
           Emergency

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Lock, Shield } from 'lucide-react';
-import medigateLogo from '../../imports/MediGate.png';
 
 export function Login({ onLogin }: { onLogin: (role: 'patient' | 'provider') => void }) {
   const [role, setRole] = useState<'patient' | 'provider'>('patient');
@@ -15,7 +14,7 @@ export function Login({ onLogin }: { onLogin: (role: 'patient' | 'provider') => 
     <div className="min-h-screen bg-[var(--surface)] flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="mb-8 flex justify-center">
-          <img src={medigateLogo} alt="MediGate" className="h-16 w-auto" />
+          <Shield className="h-12 w-12 text-[var(--primary)]" />
         </div>
 
         <div className="bg-white rounded-xl shadow-sm border border-[var(--outline-variant)] p-6 md:p-8">
